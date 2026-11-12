@@ -1,0 +1,9 @@
+dataset,modelo,validacion,exactitud,precision,recall,f1,exactitud_std,t_fit_ms,t_pred_ms
+Wine,K-NN (k=5),Hold Out 70/30,94.4444,94.4444,95.2381,94.4056,,0.024,1.2663
+Wine,Naïve Bayes,Hold Out 70/30,100.0,100.0,100.0,100.0,,0.7955,0.217
+Sintético,K-NN (k=5),Hold Out 70/30,82.3333,82.5397,82.4405,82.3102,,0.0259,8.8891
+Sintético,Naïve Bayes,Hold Out 70/30,75.6667,77.4446,75.6344,75.6871,,0.8352,0.2413
+Wine,K-NN (k=5),K-Fold (k=5),97.1746,97.035,97.6508,97.2109,1.8074,0.0202,0.9189
+Wine,Naïve Bayes,K-Fold (k=5),97.1905,97.2799,97.4603,97.3204,2.5206,0.778,0.1958
+Sintético,K-NN (k=5),K-Fold (k=5),85.6,85.7439,85.6477,85.5655,1.8815,0.024,5.9617
+Sintético,Naïve Bayes,K-Fold (k=5),75.3,76.3143,75.2501,75.3468,3.9825,0.8933,0.188
